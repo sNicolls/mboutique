@@ -12,7 +12,7 @@ body{
     width: 1000px;
     height: 72px;
     background-color: #fffabe;
-    background-image: url("../assets/images/logo.png");
+    background-image: url("./assets/images/logo.png");
     background-repeat: no-repeat;
     background-position-y: 20px;
     background-position-x: 44px;
@@ -90,7 +90,7 @@ a{
 
 /*//////////Welcome Page//////////*/
 #index_header{
-    background-image: url("../assets/images/welcome-image.png");
+    background-image: url("./assets/images/welcome-image.png");
 
 }
 #index_article{
@@ -166,10 +166,10 @@ a{
 
 /*//////////Our Macarons Page//////////*/
 #our_macarons_header{
-    background-image: url("../assets/images/our-macarons-image.png");
+    background-image: url("./assets/images/our-macarons-image.png");
 }
 #our_macarons_article{
-    background-image: url("../assets/images/our-macarons-background.png");
+    background-image: url("./assets/images/our-macarons-background.png");
     background-repeat: no-repeat;
     padding: 40px;
 
@@ -184,10 +184,10 @@ a{
 
 /*//////////Gifts/Parties Page//////////*/
 #gifts_parties_header{
-    background-image: url("../assets/images/gifts-parties-image.png");
+    background-image: url("./assets/images/gifts-parties-image.png");
 }
 #gifts_parties_article{
-    background-image: url("../assets/images/gifts-parties-background.png");
+    background-image: url("./assets/images/gifts-parties-background.png");
     padding-left: 15px;
     margin: 65px 0px;
 }
@@ -197,7 +197,7 @@ a{
 
 /*//////////Contact Page//////////*/
 #contact_header{
-    background-image: url("../assets/images/contact-image.png");
+    background-image: url("./assets/images/contact-image.png");
 }
 #contact_article{
     margin-top: 50px;
