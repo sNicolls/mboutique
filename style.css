@@ -1,0 +1,319 @@
+/*//////////!!!!Skeleton!!!!//////////*/
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/*//////////Nav//////////*/
+.nav {
+    width: 1000px;
+    height: 72px;
+    background-color: #fffabe;
+    background-image: url("../assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+    background-position-x: 44px;
+}
+.nav ul{
+    list-style-type: none;
+    font-size: 16px;
+    color: #515151;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    width: 800px;
+    height: 72px;
+    margin: 0px;
+    margin-left: 200px;
+    padding: 0px;
+}
+.nav li{
+    margin: 15px 50px;
+    display: inline-block;
+}
+.nav li:hover{
+    color: #d42551;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/*//////////Main Content//////////*/
+.header{
+    width: 1000px;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+.article{
+    box-sizing: border-box;
+    width: 1000px;
+    height: 600px;
+    background-repeat: no-repeat;
+    color: #6a6969;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 14px;
+}
+.title_text{
+    font-size: 20px;
+    margin: 35px 0px;
+}
+.aside {
+    color: #6a6969;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 14px;
+    width: 1000px
+}
+
+/*//////////Footer//////////*/
+.footer {
+    width: 1000px;
+    height: 80px;
+    background-color: #df5277;
+    text-align: center;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 12px;
+    color: #ffffff;
+}
+.media_div{
+    width: 30%;
+    height: 33%;
+    display: inline-block;
+}
+.media_div img{
+    display: inline-block;
+    margin: 0px 5px;
+}
+.media_div p{
+    display: inline-block;
+}
+
+/*//////////Welcome Page//////////*/
+#index_header{
+    background-image: url("../assets/images/welcome-image.png");
+
+}
+#index_article{
+    margin-top: 100px;
+    height: 450px;
+}
+#index_article img{
+    margin: 75px;
+    float: left;
+}
+
+
+#section{
+    height: 140px;
+    width: 100%;
+
+    text-align: center;
+    margin: 50px 0px;
+}
+.section_item{
+    text-align: left;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 12px;
+    color: #6a6969;
+    width: 126px;
+    height: 140px;
+    background-color: #fffabe;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0px 5px;
+}
+.section_item p{
+    padding-left: 8px;
+}
+.section_item img{
+    padding-right: 8px;
+}
+.item_upper{
+    padding-top: 4px;
+}
+.item_day{
+    font-size: 14px;
+}
+.flavor {
+    box-sizing: border-box;
+    padding-top: 6px;
+    height: 33px;
+    width: 126px;
+}
+.flavor p{
+    margin: 0;
+    display: inline-block;
+}
+.flavor img{
+    float: right;
+}
+#coconut{
+    color: white;
+    background-color: #824603;
+}
+#vanilla {
+    color: white;
+    background-color: #df5277;
+}
+#lemon {
+    color: white;
+    background-color: #a2304e;
+}
+#almond{
+    color: white;
+    background-color: #c39005;
+}
+
+/*//////////Our Macarons Page//////////*/
+#our_macarons_header{
+    background-image: url("../assets/images/our-macarons-image.png");
+}
+#our_macarons_article{
+    background-image: url("../assets/images/our-macarons-background.png");
+    background-repeat: no-repeat;
+    padding: 40px;
+
+}
+#our_macarons_article li{
+    margin: 4px 0px;
+}
+#our_macarons_aside{
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+/*//////////Gifts/Parties Page//////////*/
+#gifts_parties_header{
+    background-image: url("../assets/images/gifts-parties-image.png");
+}
+#gifts_parties_article{
+    background-image: url("../assets/images/gifts-parties-background.png");
+    padding-left: 15px;
+    margin: 65px 0px;
+}
+#party_email{
+    color: #df5277;
+}
+
+/*//////////Contact Page//////////*/
+#contact_header{
+    background-image: url("../assets/images/contact-image.png");
+}
+#contact_article{
+    margin-top: 50px;
+    padding: 25px;
+    height: 525px;
+}
+#hours_div{
+    float: left;
+    width: 310px;
+}
+.contact_text{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+#contact_form {
+    display: inline-block;
+    width: 310px;
+    margin-right: 75px;
+}
+#contact_form > input{
+    border: transparent;
+    background-color: #f5f5f5;
+    width: 310px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#contact_form > textarea{
+    box-sizing: border-box;
+    border: transparent;
+    background-color: #f5f5f5;
+    width: 310px;
+    height: 70px;
+    font-size: 14px;
+}
+#contact_form > button{
+    float: right;
+    border: transparent;
+    background-color: #f5f5f5;
+    width: 155px;
+    height: 35px;
+}
+#macarons_img_div{
+    display: inline-block;
+    overflow: visible;
+}
+
+
+/*//////////Mobile Settings//////////*/
+@media screen and (max-width: 375px) {
+    body {
+        width: 100vw;
+    }
+
+    .nav {
+        width: 100vw;
+        height: 72px;
+        background-position-y: 5px;
+        background-position-x: 30vw;
+    }
+
+    .nav ul {
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .nav li {
+        margin: 50px 10px 0px 10px;
+    }
+
+    /*//////////Mobile Main Content//////////*/
+    .header {
+        width: 375px;
+        height: 150px;
+    }
+
+    #contact_header {
+        background-size: 100%;
+    }
+
+    #contact_article {
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 0px;
+        height: 100%;
+        display: inline-block;
+    }
+    #macarons_img_div{
+        display: none;
+    }
+
+    /*//////////Mobile Footer//////////*/
+    .footer {
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 11px;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .media_div {
+        width: 40vw;
+
+        display: inline-block;
+    }
+
+    .media_div img {
+        width: 4vw;
+        display: inline-block;
+        margin: 0px 5px;
+    }
+
+    .media_div p {
+        display: inline-block;
+        margin: 0px;
+    }
+}
